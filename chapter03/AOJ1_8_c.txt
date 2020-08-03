@@ -1,3 +1,0 @@
-sen = input().lower
-for i in range(26):
-    print(chr(97+i) + ' : ' + str(sen.count(chr(97+i))))
