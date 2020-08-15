@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.top {
+    overflow: hidden;
+}
+.top img {
+    text-align:left;
+    text-align:top;
+    float:left;
+}
+
+.top p {
+    text-align:right;
+}
+
+.main-style {
+    text-align:center;
+    color: #FF6600;
+    float: left;
+    padding: 0px 0px 10px 200px;
+}
+
+.rapper {
+
+    overflow: hidden;
+}
+.box {
+    overflow: hidden;
+}
+.float {
+    float: left;
+}
+.box label{
+    background: #FF6600;
+    display: block;
+    padding: 5px 100px 10px 5px;
+    cursor: pointer;
+    color: white;
+}
+#label a {
+    text-decoration: none;
+}
+#label a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    background: #FF6600;
+    color: white;
+    text-align: left;
+}
+.box a {
+    color: white;
+    text-decoration: none;
+}
+.box a:hover {
+    text-decoration: underline;
+}
+ 
+.box input[type="checkbox"].on-off,
+.box input[type="checkbox"].on-off +div{
+    display: none;
+}
+ 
+.box input[type="checkbox"].on-off:checked +div{
+    display: block;
+}
+ 
+.box div{
+    margin: 0 0 20px;
+} 
+.slide {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 350px;
+    margin: 80px 30px 30px 30px;
+    background: #fff;
+    float: left;
+}
+.slide img {
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    left: 100%;
+    animation: slideAnime 10s ease infinite;
+}
+.slide h2 {
+    position: absolute;
+    text-align: top;
+    text-align: left;
+    font-size: 30px;
+    color: #FF6600;
+    animation: slideAnime 10s ease infinite;
+}
+.slide h2:nth-of-type(1) {animation-delay: 0s}
+.slide h2:nth-of-type(2) {animation-delay: 5s}
+
+@keyframes slideAnime{
+    0% {left: 100%}
+    5% {left: 0}
+    45% {left: 0}
+    50% {left: -100%}
+    100% {left: -100%}
+}
+.slide img:nth-of-type(1) {animation-delay: 0s}
+.slide img:nth-of-type(2) {animation-delay: 5s}
+
+@keyframes slideAnime{
+    0% {left: 100%}
+    5% {left: 0}
+    45%{left: 0}
+    50%{left: -100%}
+    100%{left: -100%}
+}
+.wraper {
+    overflow: hidden;
+}
+.item {
+    float: left;
+    margin: 4px 0 4px 4px;
+    padding: 8px;
+    width: 200px;
+}
+.item h2{
+    margin: 0.5em 0 0.5em 0;
+    font-size: 16px;
+    color: #FF6600
+}
+.item a {
+    color: #FF6600;
+    text-decoration: none;
+}
+.item a:hover {
+    color: #FF9966;
+    text-decoration: underline;
+}
+.item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666666;
+}
+
