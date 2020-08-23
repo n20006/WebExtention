@@ -43,7 +43,7 @@
 #label a:hover {
     text-decoration: none;
 }
-ul {
+.float ul {
     list-style: none;
     background: #FF6600;
     color: white;
@@ -144,15 +144,80 @@ ul {
 
 /*サイバーセキュリティ科*/
 
-.cyber-top {
-    float: hidden;
+.second-top {
+    overflow: hidden;
 }
-.cyber-float {
+.float2 {
     float: left;
     margin: 0 0 0 20px;
-    padding: 20px 170px 20px 20px;
+    padding: 4px 100px 0px 20px;
     background-color: #8EB8FF;
     color: black;
-    }
-.cyber-top img {
+}
+.design strong {
+    text-align: center;
+    border: inset ;
+    background: gray;
+    color: white;
+}
+.design {
+    float: right;
+    font-size: 13px;
+    display: inline-block;
+    margin: 30px 180px 0px 0px;
+    width: 230px;
+    border: double;
+}
+.design img {
+    position: absolute;
+    top: 13em;
+    right: 12em;
+}
+.rapper {
+    overflow: hidden;
+}
+.jobs {
+    margin: 30px 20px 20px 20px;
+    padding: 5px 0px 10px 20px;
+    border: 1px solid #8EB8FF;
+    width: 300px;
+    border-radius: 7px;
+    float:left;
+}
+.jobs h3 {
+    color: #000099;
+}
+.feature ul {
+    float: left;
+}
+.feature {
+    display: inline-block;
+    margin: 30px 20px 20px 50px;
+    padding: 0px 30px 0px 20px;
+    border: 1px solid #8EB8FF;
+    border-radius: 7px;
+}
+.feature h3 {
+    color: #000099;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+.plan th,
+td {
+    border: 1px solid #e3ecf5;
+    padding: 8px;
+}
+.plan strong {
+    vertical-align: top;
+}
+.plan th {
+    border: 1px solid #e3ecf5;
+    color: white;
+    background: #1f8ef5;
+}
+.plan a:active {
+    color: blue;
 }
