@@ -172,6 +172,10 @@
     top: 13em;
     right: 12em;
 }
+.line {
+    line-height: normal;
+    font-weight: normal;
+}
 .rapper {
     overflow: hidden;
 }
