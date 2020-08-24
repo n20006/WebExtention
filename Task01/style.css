@@ -43,8 +43,7 @@
 #label a:hover {
     text-decoration: none;
 }
-.float ul {
-    list-style: none;
+.float ol {
     background: #FF6600;
     color: white;
     text-align: left;
