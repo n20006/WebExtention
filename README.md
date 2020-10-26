@@ -12,4 +12,6 @@
 1. chapter08 「[リンクの設定と画像の表示](chapter08/ch08-linkimg.html)」  
 1. chapter09 「[ボックスと情報の整理](chapter09/ch09-boxcss.html)」  
 1. chapter10 「[テーブル](chapter10/ch10-table.html)」  
+1. chapter11 「[標準的なフォームの例](chapter11/ch11-form.html)」
 1. Task1     「[ホームページ作成](Task01/index.html)」
+
