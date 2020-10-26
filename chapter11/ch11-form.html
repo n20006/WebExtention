@@ -7,8 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="ch11-style.css">
 </head>
 <body>
-	<form action="#" method="post" id="contact">
-		<p><label for="name-field">お客様</label><br>
+	<form action="http://172.16.40.71/form.py" method="post" id="contact">
+		<p><label for="name-field">お名前</label><br>
 		<input type="text" name="name" id="name-field"></p>
 		<p><label for="email-field">メールアドレス</label><br>
 		<input type="email" name="email" id="email-field"></p>
@@ -16,7 +16,7 @@
 		<textarea name="comment" id="comment"></textarea></p>
     <div class="subres">
       <input type="submit" value="送信する" id="submit" name="submit">
-      <input type="reset" name="name">
+      <input type="reset" value="リセット" name="name">
     </div>
 	</form>
 </body>
